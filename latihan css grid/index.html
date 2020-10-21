@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM Desain</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="hero">
+                <h2 class="heading">AM Desain</h2>
+                <p class="sub-heading">Courses & Developer</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">Mulai 250K</h4>
+                <p class="price-item">Courses</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">Mulai 150k</h4>
+                <p class="price-item">Hire us</p>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>AM Desain</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"><i class="fab fa-html5"></i></div>
+                <h3>WEB DESIGN</h3>
+                <p>
+                    Developer yang berpengalaman, berskill dan berkomitmen untuk menjadikan pelanggan menjadi
+                            puas
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class="fab fa-discourse"></i></div>
+                <h3 style="text-transform: uppercase;">Online Courses</h3>
+                <p>
+                    Dapatkan berbagai kursus desain yang berkualitas dengan harga yang terjangkau. Investasi untuk masa depan!
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class="fab fa-stumbleupon"></i></div>
+                <h3  style="text-transform: uppercase;">ui/ux</h3>
+                <p>
+                    Produk Desain yang sangat lekat dengan karakter dan kami akan selalu menciptakan pengalaman
+                            berselancar yang berkualitas
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class="fab fa-sketch"></i></div>
+                <h3  style="text-transform: uppercase;">Logo <h1 class="display-1"></h1></h3>
+                <p>
+                    Desain yang berkualitas dengan developer yang berpengalaman dan berdedikasi tinggi
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Apa Kata Mereka ? </h2>
+            <div class="review">
+                <div class="lingkaran"><img src="img/6.jpg" alt="" style="width: 150px; margin-left: -30px;"></div>
+                <h3>Valentino Harpa iki Bos!!</h3>
+                <p style="font-size: 15px;font-style: italic;">"HIDUP SEPERTI LARRY!!!"</p>
+            </div>
+            <div class="review">
+                <div class="lingkaran"><img src="img/7.jpg" alt="" ></div>
+                <h3>Mas Cahya Wahyu Murti</h3>
+                <p style="font-size: 15px;font-style: italic;">"Kursus yang sangat berkualitas dan sangat mudah difahami ditambah lagi mentornya yang fast respond jadi tidak membuat saya menanti lama karena menanti itu melelahkan :( "</p>
+            </div>
+            <div class="review">
+                <div class="lingkaran"><img src="img/8.jpg" alt="" style="width: 190px; margin-left: -50px; margin-top: -50px;"></div>
+                <h3>Frisca Nur hidayatul Khoiron</h3>
+                <p style="font-size: 15px;font-style: italic;">"Kursus yang sangat bermanfaat bagi pemula, sangat mudah difahami untuk orang yang masih awam tentang pemrograman"</p>
+            </div>
+            <div class="review">
+                <div class="lingkaran"><img src="img/9.jpg" alt="" style="width: 150px; margin-left: -10px;"></div>
+                <h3>Nanang Adit ya</h3>
+                <p style="font-size: 15px;font-style: italic;">"Kursusnya keren , dan juga tidak menyesal pernah menyewa desainer disini karena sangat profresional"</p>
+            </div>
+            <div class="review">
+                <div class="lingkaran"><img src="img/10.jpg" alt="" style="width: 180px; margin-left: -50px;"></div>
+                <h3>Farida Palembang Dewi</h3>
+                <p style="font-size: 15px;font-style: italic;">"Kursusnya keren ditambah lagi mentornya kece kece dan gemesin pingin aku jadiin pacar aja deh :) "</p>
+            </div>
+            <div class="review">
+                <div class="lingkaran"><img src="img/11.jpg" alt="" style="width: 150px; margin-left:-15px"></div>
+                <h3>Arya Pertamina</h3>
+                <p style="font-size: 15px;font-style: italic;">"Kursus yang sangat berfaedah bagi seluruh kalangan"</p>
+            </div>
+        </section>
+
+        <div class="footer">
+            <div class="text-footer">
+                <h3>Copyright &copy; Achmad Muqorrobin 2020</h3>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/ad7625fe86.js" crossorigin="anonymous"></script>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>
